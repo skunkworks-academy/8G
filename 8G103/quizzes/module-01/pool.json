@@ -1,0 +1,26 @@
+{
+  "module": "01",
+  "title": "Module 01 Quiz Pool",
+  "version": 1,
+  "questions": [
+    {
+      "id": "m01-q1",
+      "type": "mcq",
+      "prompt": "Placeholder question for module 01 (replace with real topic-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-01", "baseline"]
+    }
+  ]
+}

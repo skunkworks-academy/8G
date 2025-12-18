@@ -1,0 +1,577 @@
+{
+  "module": "07",
+  "title": "Module 07 Quiz Pool",
+  "version": 1,
+  "questions": [
+    {
+      "id": "m07-q1",
+      "type": "mcq",
+      "prompt": "Placeholder Q1 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q2",
+      "type": "mcq",
+      "prompt": "Placeholder Q2 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q3",
+      "type": "mcq",
+      "prompt": "Placeholder Q3 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q4",
+      "type": "mcq",
+      "prompt": "Placeholder Q4 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q5",
+      "type": "mcq",
+      "prompt": "Placeholder Q5 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q6",
+      "type": "mcq",
+      "prompt": "Placeholder Q6 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q7",
+      "type": "mcq",
+      "prompt": "Placeholder Q7 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q8",
+      "type": "mcq",
+      "prompt": "Placeholder Q8 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q9",
+      "type": "mcq",
+      "prompt": "Placeholder Q9 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q10",
+      "type": "mcq",
+      "prompt": "Placeholder Q10 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q11",
+      "type": "mcq",
+      "prompt": "Placeholder Q11 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q12",
+      "type": "mcq",
+      "prompt": "Placeholder Q12 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q13",
+      "type": "mcq",
+      "prompt": "Placeholder Q13 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q14",
+      "type": "mcq",
+      "prompt": "Placeholder Q14 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q15",
+      "type": "mcq",
+      "prompt": "Placeholder Q15 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q16",
+      "type": "mcq",
+      "prompt": "Placeholder Q16 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q17",
+      "type": "mcq",
+      "prompt": "Placeholder Q17 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q18",
+      "type": "mcq",
+      "prompt": "Placeholder Q18 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q19",
+      "type": "mcq",
+      "prompt": "Placeholder Q19 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q20",
+      "type": "mcq",
+      "prompt": "Placeholder Q20 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q21",
+      "type": "mcq",
+      "prompt": "Placeholder Q21 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q22",
+      "type": "mcq",
+      "prompt": "Placeholder Q22 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q23",
+      "type": "mcq",
+      "prompt": "Placeholder Q23 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q24",
+      "type": "mcq",
+      "prompt": "Placeholder Q24 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q25",
+      "type": "mcq",
+      "prompt": "Placeholder Q25 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q26",
+      "type": "mcq",
+      "prompt": "Placeholder Q26 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q27",
+      "type": "mcq",
+      "prompt": "Placeholder Q27 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q28",
+      "type": "mcq",
+      "prompt": "Placeholder Q28 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q29",
+      "type": "mcq",
+      "prompt": "Placeholder Q29 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    },
+    {
+      "id": "m07-q30",
+      "type": "mcq",
+      "prompt": "Placeholder Q30 for Module 07 (replace with real objective-aligned content).",
+      "choices": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answerIndex": 1,
+      "explainCorrect": "Why B is correct (replace).",
+      "explainIncorrect": {
+        "0": "Why A is wrong (replace).",
+        "2": "Why C is wrong (replace).",
+        "3": "Why D is wrong (replace)."
+      },
+      "tags": ["module-07", "pool-30", "placeholder"]
+    }
+  ]
+}

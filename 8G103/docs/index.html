@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>8G103 — Guardium Data Protection Fundamentals</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="brand">
+        <div class="badge">Skunkworks Academy</div>
+        <div class="badge">8G103</div>
+        <div class="badge">GitHub Pages</div>
+      </div>
+      <div class="h1">Guardium Data Protection Fundamentals</div>
+      <div class="sub">
+        Modular knowledge assessment for 8G103. Tracks learning impact locally (progress, improvement, time-on-task, item difficulty),
+        supports export for reporting, and is fully responsive.
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid">
+      <div class="card">
+        <div class="pad">
+          <h2>Progress snapshot</h2>
+          <div class="row">
+            <div class="kpi"><div class="label">Attempts</div><div id="kpiAttempts" class="value">0</div></div>
+            <div class="kpi"><div class="label">Average best</div><div id="kpiAvgBest" class="value">0%</div></div>
+            <div class="kpi"><div class="label">Modules completed</div><div id="kpiCompleted" class="value">0/10</div></div>
+            <div class="kpi"><div class="label">Time-on-task</div><div id="kpiTime" class="value">0s</div></div>
+          </div>
+          <div class="hr"></div>
+          <div class="row">
+            <button class="btn good" id="btnExport">Export progress</button>
+            <button class="btn" id="btnImport">Import progress</button>
+            <input type="file" id="fileImport" accept="application/json" style="display:none">
+            <button class="btn bad" id="btnReset">Reset local progress</button>
+            <button class="btn primary" id="btnReview">Final review</button>
+          </div>
+          <div class="small" style="margin-top:10px">
+            Progress is stored in your browser (localStorage). Export JSON if you need portability or evidence.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="pad">
+          <h2>Learning impact indicators</h2>
+          <div id="impact"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <div class="pad">
+        <h2>Modules</h2>
+        <div class="small">Each module uses a 30-question pool. A default pass threshold is 70% (adjustable in code).</div>
+        <div class="hr"></div>
+        <div id="modules" class="moduleGrid"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      © Skunkworks Academy • 8G103 • Built for GitHub Pages
+    </div>
+  </div>
+
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>
