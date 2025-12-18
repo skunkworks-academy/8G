@@ -1,0 +1,24 @@
+.lesson-header { text-align:center; margin-bottom:12px }
+.lesson-sub { color: var(--muted) }
+.reveal { margin:12px 0; padding:10px; border:1px solid var(--border); border-radius:10px; background:rgba(255,255,255,.03) }
+.poll button { margin:4px; cursor:pointer; }
+.poll-result.hidden { display:none; }
+.tooltip {
+  position:relative;
+  border-bottom:1px dotted var(--muted);
+  cursor:help;
+}
+.tooltip .tooltiptext {
+  visibility:hidden;
+  background-color:var(--muted);
+  color:var(--bg);
+  text-align:center;
+  border-radius:6px;
+  padding:6px;
+  position:absolute;
+  z-index:20;
+  bottom:125%;
+  left:50%;
+  transform:translateX(-50%);
+}
+.tooltip:hover .tooltiptext { visibility:visible; }
