@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>8G103G — Module 05</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="no-select">
+  <div class="antiCheatBanner">
+    Focus required. Switching tabs/windows may blur content. Copy/paste and context menu are blocked (best-effort).
+  </div>
+
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand">
+        <span class="badge">8G103G</span>
+        <span class="badge">Module 05</span>
+      </div>
+      <h1 id="modTitle">Module 05 Quiz</h1>
+      <p class="sub" id="modMeta"></p>
+
+      <div class="actions">
+        <a class="btn" href="index.html">Wall</a>
+        <a class="btn primary" href="final.html">Final</a>
+        <button class="btn" id="fullscreenBtn">Fullscreen</button>
+        <button class="btn bad" id="resetBtn">Reset Module</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel">
+      <div class="kpis" id="attemptKpis"></div>
+      <div class="hr"></div>
+
+      <div id="quizMount"></div>
+
+      <div class="hr"></div>
+      <div class="actions">
+        <button class="btn good" id="exportBtn">Export Module JSON</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Timer auto-submits on expiry. Attempt limits are enforced per browser only.
+    </footer>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', async () => {
+      CourseApp.enableDeterrents({
+        watermarkText: '8G103G | Module 05',
+        fullscreenOptional: true,
+        blurOnFocusLoss: true
+      });
+
+      await CourseApp.renderModule({
+        moduleId: '05',
+        mountId: 'quizMount',
+        titleId: 'modTitle',
+        metaId: 'modMeta',
+        kpiId: 'attemptKpis',
+        poolUrl: 'assets/data/module-05-pool.json',
+        config: {
+          poolSize: 30,
+          pickCount: 10,
+          timeLimitSeconds: 10 * 60,
+          attemptLimit: 3,
+          masteryPct: 80
+        }
+      });
+
+      document.getElementById('exportBtn').addEventListener('click', () => CourseApp.exportModule('05'));
+
+      document.getElementById('resetBtn').addEventListener('click', () => {
+        if (confirm('Reset Module 05 progress on this browser?')) {
+          CourseApp.resetModule('05');
+          location.reload();
+        }
+      });
+
+      document.getElementById('fullscreenBtn').addEventListener('click', () => CourseApp.requestFullscreen());
+    });
+  </script>
+</body>
+</html>

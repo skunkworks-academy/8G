@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>8G103G — Final Review</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="no-select">
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand">
+        <span class="badge">8G103G</span>
+        <span class="badge">Final Review</span>
+      </div>
+      <h1>Final Review & Mastery Recap</h1>
+      <p class="sub">Unlocked only when all modules are completed (mastery threshold met).</p>
+      <div class="actions">
+        <a class="btn" href="index.html">Back to Wall</a>
+        <button class="btn good" id="exportFinalBtn">Export Final JSON</button>
+        <button class="btn bad" id="resetAllBtn">Reset All</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel" id="finalMount"></section>
+    <footer class="footer">
+      Evidence note: exports contain attempt history, timestamps, answers, and scoring.
+    </footer>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      CourseApp.enableDeterrents({ watermarkText: '8G103G | Final Review', fullscreenOptional: false });
+
+      CourseApp.renderFinal({ mountId: 'finalMount' });
+
+      document.getElementById('exportFinalBtn').addEventListener('click', () => CourseApp.exportFinal());
+
+      document.getElementById('resetAllBtn').addEventListener('click', () => {
+        if (confirm('Reset all modules on this browser?')) {
+          CourseApp.resetAll();
+          location.href = 'index.html';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

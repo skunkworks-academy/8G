@@ -3,73 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>8G103 — Guardium Data Protection Fundamentals</title>
-  <link rel="stylesheet" href="assets/css/site.css">
+  <title>8G103G — Quiz Wall</title>
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
-  <div class="topbar">
-    <div class="container">
+<body class="no-select">
+  <header class="topbar">
+    <div class="wrap">
       <div class="brand">
-        <div class="badge">Skunkworks Academy</div>
-        <div class="badge">8G103</div>
-        <div class="badge">GitHub Pages</div>
+        <span class="badge">Skunkworks Academy</span>
+        <span class="badge">8G103G</span>
+        <span class="badge">Self-Paced Course</span>
       </div>
-      <div class="h1">Guardium Data Protection Fundamentals</div>
-      <div class="sub">
-        A modular knowledge assessment site for 8G103. Tracks learning impact locally (progress, improvement, time-on-task, item difficulty),
-        supports export for organizational reporting, and is fully responsive.
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="grid">
-      <div class="card">
-        <div class="pad">
-          <h2>Progress snapshot</h2>
-          <div class="row">
-            <div class="kpi"><div class="label">Attempts</div><div id="kpiAttempts" class="value">0</div></div>
-            <div class="kpi"><div class="label">Average best</div><div id="kpiAvgBest" class="value">0%</div></div>
-            <div class="kpi"><div class="label">Modules completed</div><div id="kpiCompleted" class="value">0/10</div></div>
-            <div class="kpi"><div class="label">Time-on-task</div><div id="kpiTime" class="value">0s</div></div>
-          </div>
-          <div class="hr"></div>
-          <div class="row">
-            <button class="btn good" id="btnExport">Export progress</button>
-            <button class="btn" id="btnImport">Import progress</button>
-            <input type="file" id="fileImport" accept="application/json" style="display:none">
-            <button class="btn bad" id="btnReset">Reset local progress</button>
-            <button class="btn primary" id="btnReview">Final review</button>
-          </div>
-          <div class="small" style="margin-top:10px">
-            Note: This site stores progress in your browser (localStorage). Export JSON if you need a portable record.
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="pad">
-          <h2>Learning impact indicators</h2>
-          <div id="impact"></div>
-        </div>
+      <h1>Guardium Data Protection Fundamentals — Quiz Wall</h1>
+      <p class="sub">
+        Complete Modules 01–10. Each attempt draws a randomized subset from the module pool, shuffles options,
+        enforces a timer and attempt limits, and provides detailed remediation.
+      </p>
+      <div class="actions">
+        <button class="btn good" id="exportAllBtn">Export All Progress (JSON)</button>
+        <button class="btn" id="importBtn">Import Progress (JSON)</button>
+        <input type="file" id="importFile" accept="application/json" hidden>
+        <button class="btn bad" id="resetAllBtn">Reset All</button>
+        <a class="btn primary" href="final.html">Final Review</a>
       </div>
     </div>
+  </header>
 
-    <div class="card" style="margin-top:16px">
-      <div class="pad">
-        <h2>Modules</h2>
-        <div class="small">Complete each module quiz. A default pass threshold is 70% (adjustable in code).</div>
-        <div class="hr"></div>
-        <div id="modules" class="moduleGrid"></div>
-      </div>
-    </div>
+  <main class="wrap">
+    <section class="panel">
+      <div class="kpis" id="kpis"></div>
+      <div class="hr"></div>
+      <h2>Modules</h2>
+      <div class="grid" id="wall"></div>
+    </section>
 
-    <div class="footer">
-      © Skunkworks Academy • 8G103 • Built for GitHub Pages
-    </div>
-  </div>
+    <footer class="footer">
+      Static-only delivery (GitHub Pages). Deterrents reduce casual cheating but cannot prevent a determined user.
+    </footer>
+  </main>
 
-  <script src="assets/js/core.js"></script>
-  <script src="assets/js/dashboard.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      CourseApp.enableDeterrents({ watermarkText: '8G103G | Skunkworks Academy', fullscreenOptional: true });
+
+      CourseApp.renderWall({ mountId: 'wall', kpiId: 'kpis' });
+
+      document.getElementById('exportAllBtn').addEventListener('click', () => CourseApp.exportAll());
+
+      document.getElementById('resetAllBtn').addEventListener('click', () => {
+        if (confirm('Reset all modules on this browser?')) {
+          CourseApp.resetAll();
+          location.reload();
+        }
+      });
+
+      const importBtn = document.getElementById('importBtn');
+      const importFile = document.getElementById('importFile');
+
+      importBtn.addEventListener('click', () => importFile.click());
+
+      importFile.addEventListener('change', async (e) => {
+        const f = e.target.files && e.target.files[0];
+        if (!f) return;
+        try {
+          await CourseApp.importAll(await f.text());
+          location.reload();
+        } catch (err) {
+          alert('Import failed: ' + err.message);
+        } finally {
+          importFile.value = '';
+        }
+      });
+    });
+  </script>
 </body>
 </html>
+
